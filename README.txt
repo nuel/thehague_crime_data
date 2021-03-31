@@ -8,23 +8,41 @@ Compiled by nuel
 
 In this README:
 
+0. Introduction
 1. About this dataset
 2. Content and structure
 3. Delict codes explanation
+
+
+================
+| INTRODUCTION |
+----------------
+This project was part of a larger effort to investigate the
+cyber division of the Dutch police -- in particular their
+latest developments in terms of predictive policing. This
+dataset is an effort to take back some transparency and
+insight into the data that's being used behind the scenes
+to predict and "prevent" crime.
+
+When technology that is barely understood produces
+questionable results that are taken as infallible truths, and
+when these become guiding principles to enact violence,
+marginalized people will always end up paying the price. 1312
+
 
 
 ======================
 | ABOUT THIS DATASET |
 ----------------------
 
-Dutch police in The Hague (whose jurisdiction extends to
-several nearby cities) run a website where residents can
-check local crime stats. The numbers are very local: they
-are grouped per neighborhood, which in many cases is not
-bigger than just a few streets.
+In 2018, Dutch police in The Hague (whose jurisdiction extends
+to several nearby cities) ran a public website where residents
+could check local crime stats. The numbers were very local: they
+were grouped per neighborhood, which in many cases is not bigger
+than just a few streets.
 
-However, the website only lets you view one month at a time
-and always filters on one specific type of crime.
+However, the website only let you view one month at a time
+and always filtered on one specific type of crime.
 
 That's why I decided to scrape the raw data. In the folder
 "data", you'll find the complete dataset that the police
@@ -33,6 +51,7 @@ geographical boundaries for each neighborhood.
 
 If you want to scrape a fresh copy yourself, the scripts I
 wrote to compile the dataset are also included.
+
 
 
 =========================
